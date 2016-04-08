@@ -170,7 +170,7 @@ Reinhard Simon</li>
 <section><section id="testing-functions" class="titleslide slide level1"><h1>Testing Functions</h1></section><section id="testing-functions-1" class="slide level2">
 <h1>Testing Functions</h1>
 <p>Define a temperature conversion function.</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># convert Faherenheit to Kelvin</span>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># convert Fahrenheit to Kelvin</span>
 f_k &lt;-<span class="st"> </span>function(temp){
     ((temp -<span class="st"> </span><span class="dv">32</span>)) *<span class="st"> </span><span class="kw">floor</span>(<span class="dv">5</span>/<span class="dv">9</span>) +<span class="st"> </span><span class="fl">273.15</span>
 }</code></pre></div>
@@ -184,11 +184,11 @@ f_k &lt;-<span class="st"> </span>function(temp){
 <pre><code>## [1] 273.15</code></pre>
 </section><section id="what-went-wrong" class="slide level2">
 <h1>What went wrong?</h1>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># convert Faherenheit to Kelvin</span>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># convert Fahrenheit to Kelvin</span>
 f_k &lt;-<span class="st"> </span>function(temp){
     ((temp -<span class="st"> </span><span class="dv">32</span>)) *<span class="st"> </span><span class="kw">floor</span>(<span class="dv">5</span>/<span class="dv">9</span>) +<span class="st"> </span><span class="fl">273.15</span>
 }</code></pre></div>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># convert Faherenheit to Kelvin, correctly</span>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># convert Fahrenheit to Kelvin, correctly</span>
 f_k &lt;-<span class="st"> </span>function(temp){
     ((temp -<span class="st"> </span><span class="dv">32</span>)) *<span class="st"> </span>(<span class="dv">5</span>/<span class="dv">9</span>) +<span class="st"> </span><span class="fl">273.15</span>
 }</code></pre></div>
@@ -243,7 +243,7 @@ test.result &lt;-<span class="st"> </span><span class="kw">runTestSuite</span>(t
 </section><section id="automate-tests-runit-5" class="slide level2">
 <h1>Automate tests – <code>RUnit</code></h1>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">printTextProtocol</span>(test.result)</code></pre></div>
-<pre><code>## RUNIT TEST PROTOCOL -- Fri Apr  8 05:02:20 2016 
+<pre><code>## RUNIT TEST PROTOCOL -- Fri Apr  8 08:36:32 2016 
 ## *********************************************** 
 ## Number of test functions: 1 
 ## Number of errors: 0 
@@ -290,8 +290,8 @@ test.result &lt;-<span class="st"> </span><span class="kw">runTestSuite</span>(t
     <span class="kw">expect_equal</span>(<span class="fl">273.15</span>, <span class="kw">f_k</span>(<span class="dv">32</span>))
     <span class="kw">expect_equal</span>(<span class="fl">373.15</span>, <span class="kw">f_k</span>(<span class="dv">212</span>))
 })</code></pre></div>
-</section><section id="autotomate-tests-testthat" class="slide level2">
-<h1>Autotomate tests – <code>testthat</code></h1>
+</section><section id="automate-tests-testthat-3" class="slide level2">
+<h1>Automate tests – <code>testthat</code></h1>
 <p>That just ran it.</p>
 <p>To have a complete file you need <code>context</code></p>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">writeLines</span>(<span class="kw">readLines</span>(<span class="st">'tests/testthat/test_f_k.R'</span>))</code></pre></div>
@@ -303,8 +303,8 @@ test.result &lt;-<span class="st"> </span><span class="kw">runTestSuite</span>(t
 ##     expect_equal(273.15, f_k(32))
 ##     expect_equal(373.15, f_k(212))
 ## })</code></pre>
-</section><section id="autotomate-tests-testthat-1" class="slide level2">
-<h1>Autotomate tests – <code>testthat</code></h1>
+</section><section id="automate-tests-testthat-4" class="slide level2">
+<h1>Automate tests – <code>testthat</code></h1>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(testthat)
 <span class="kw">source</span>(<span class="st">'src/f_k.R'</span>)
 

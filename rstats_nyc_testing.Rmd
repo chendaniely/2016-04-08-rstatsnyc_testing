@@ -61,7 +61,7 @@ knitr::opts_chunk$set(echo = TRUE)
 Define a temperature conversion function.
 
 ```{r}
-# convert Faherenheit to Kelvin
+# convert Fahrenheit to Kelvin
 f_k <- function(temp){
     ((temp - 32)) * floor(5/9) + 273.15
 }
@@ -83,14 +83,14 @@ f_k(212)
 ## What went wrong?
 
 ```{r}
-# convert Faherenheit to Kelvin
+# convert Fahrenheit to Kelvin
 f_k <- function(temp){
     ((temp - 32)) * floor(5/9) + 273.15
 }
 ```
 
 ```{r}
-# convert Faherenheit to Kelvin, correctly
+# convert Fahrenheit to Kelvin, correctly
 f_k <- function(temp){
     ((temp - 32)) * (5/9) + 273.15
 }
@@ -178,7 +178,7 @@ test_that("Faherenheit to Kelvin converts correctly", {# note bracket
 })
 ```
 
-## Autotomate tests -- `testthat`
+## Automate tests -- `testthat`
 That just ran it.
 
 To have a complete file you need `context`
@@ -187,7 +187,7 @@ To have a complete file you need `context`
 writeLines(readLines('tests/testthat/test_f_k.R'))
 ```
 
-## Autotomate tests -- `testthat`
+## Automate tests -- `testthat`
 
 ```{r}
 library(testthat)
