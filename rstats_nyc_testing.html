@@ -116,7 +116,7 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <section>
     <h1 class="title">Testing in R</h1>
     <h2 class="author">Daniel Chen</h2>
-    <h3 class="date">April 4, 2016</h3>
+    <h3 class="date">April 8, 2016</h3>
 </section>
 
 <section><section id="hi" class="titleslide slide level1"><h1>Hi!</h1></section><section id="im-daniel" class="slide level2">
@@ -243,7 +243,7 @@ test.result &lt;-<span class="st"> </span><span class="kw">runTestSuite</span>(t
 </section><section id="automate-tests-runit-5" class="slide level2">
 <h1>Automate tests – <code>RUnit</code></h1>
 <div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">printTextProtocol</span>(test.result)</code></pre></div>
-<pre><code>## RUNIT TEST PROTOCOL -- Fri Apr  8 04:55:58 2016 
+<pre><code>## RUNIT TEST PROTOCOL -- Fri Apr  8 05:00:30 2016 
 ## *********************************************** 
 ## Number of test functions: 1 
 ## Number of errors: 0 
@@ -311,7 +311,7 @@ test.result &lt;-<span class="st"> </span><span class="kw">runTestSuite</span>(t
 testthat::<span class="kw">test_dir</span>(<span class="st">'tests/testthat/'</span>)</code></pre></div>
 <pre><code>## Temperature Conversion : ..
 ## 
-## DONE</code></pre>
+## You are a coding rockstar!</code></pre>
 </section></section>
 <section><section id="testing-data" class="titleslide slide level1"><h1>Testing Data</h1></section><section id="zika" class="slide level2">
 <h1>Zika</h1>
@@ -332,18 +332,18 @@ testthat::<span class="kw">test_dir</span>(<span class="st">'tests/testthat/'</s
 dplyr::<span class="kw">sample_n</span>(parsed_location, <span class="dv">10</span>)</code></pre></div>
 <pre><code>## Source: local data frame [10 x 11]
 ## 
-##    report_date  country            location2   location3 location_type
-##         (date)    (chr)                (chr)       (chr)         (chr)
-## 1   2016-02-13 Colombia                Sucre  San_Onofre  municipality
-## 2   2016-01-09 Colombia            Santander   El_Playon  municipality
-## 3   2016-01-23 Colombia               Caldas     Anserma  municipality
-## 4   2016-01-30 Colombia               Boyaca   Pachavita  municipality
-## 5   2016-02-20 Colombia               Caldas     Marmato  municipality
-## 6   2016-01-09   Mexico Coahuila_de_Zaragoza          NA         state
-## 7   2016-01-09 Colombia               Tolima  Casabianca  municipality
-## 8   2015-12-19   Mexico            Zacatecas          NA         state
-## 9   2016-01-16 Colombia            Antioquia Angelopolis  municipality
-## 10  2016-02-27   Brazil                Ceara          NA         state
+##    report_date  country    location2    location3 location_type
+##         (date)    (chr)        (chr)        (chr)         (chr)
+## 1   2016-01-16 Colombia    Magdalena    Aracataca  municipality
+## 2   2016-01-23 Colombia Cundinamarca       Bojaca  municipality
+## 3   2016-01-16 Colombia    Antioquia       Carepa  municipality
+## 4   2016-01-16 Colombia    Magdalena      Cienaga  municipality
+## 5   2016-01-09   Mexico      Tabasco           NA         state
+## 6   2016-02-06 Colombia       Tolima   Anzoategui  municipality
+## 7   2016-01-09 Colombia       Tolima Roncesvalles  municipality
+## 8   2016-01-30 Colombia       Boyaca        Socha  municipality
+## 9   2016-02-13 Colombia     Putumayo  Villagarzon  municipality
+## 10  2016-03-05   Mexico      Yucatan           NA         state
 ## Variables not shown: data_field (chr), data_field_code (chr), time_period
 ##   (chr), time_period_type (chr), value (chr), unit (chr)</code></pre>
 </section><section id="zika-data-2" class="slide level2">
