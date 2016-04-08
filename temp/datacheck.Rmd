@@ -1,0 +1,93 @@
+---
+title: "Untitled"
+author: ""
+date: "April 8, 2016"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+if(interactive()){
+} else{
+    setwd('..')
+}
+```
+
+# Testing data -- `datacheck`
+
+## Testing data -- `datacheck` -- installation
+
+https://github.com/c5sire/datacheck
+
+```{r, eval=FALSE}
+devtools::install_github('c5sire/datacheck')
+```
+
+
+## Testing data -- `datacheck`
+
+```{r, eval=FALSE}
+atable = system.file("examples/soilsamples.csv", package="datacheck")
+srules = system.file("examples/soil_rules.R", package="datacheck")
+
+file.copy(atable, "data/soilsamples.csv")
+file.copy(srules, "data/soil_rules.R")
+```
+
+```{r, results='hide'}
+library(datacheck)
+atable = read.csv("data/soilsamples.csv",
+                  header = TRUE, stringsAsFactors = FALSE)
+srules = read_rules("data/soil_rules.R")
+profil = datadict_profile(atable, srules)
+```
+
+## Testing data -- `datacheck`
+```{r}
+dim(atable)
+head(atable)
+```
+
+## Testing data -- `datacheck`
+```{r}
+# class(srules)
+head(srules, 5)
+tail(srules, 5)
+```
+
+##
+
+```{r}
+rule_coverage(profil)
+```
+
+##
+
+```{r}
+score_sum(profil)
+```
+
+
+##
+```{r, results='tex'}
+library(xtable)
+table(atable[1:20, 1:6])
+```
+
+##
+```{r}
+ps = profil$scores
+mp = max(ps$Record.score[nrow(ps)-2])
+
+heatmap_quality(profil, scoreMax = mp)
+```
+
+##
+
+```{r, results='hide'}
+atable$P[1]  = -100
+atable$pH[11]= -200
+srule1 = srules[-c(33),]
+profil = datadict_profile(atable, srule1)
+```

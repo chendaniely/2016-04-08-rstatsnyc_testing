@@ -1,0 +1,101 @@
+"ID","Latitude","Longitude","Country","Adm1","Adm2","Adm3","pH","Conductivity","CaCO3","Organic_matter","P","Sand","Lime","Clay","Soil_texture","Altitude"
+767,-12.0318,-75.242,"Peru","Junin","Huancayo","San Agustin",8,0.8,10.94,2,20.1,42,34,24,"Loam",3210
+1029,-12.0771,-76.952,"Peru","Lima","Lima","La Molina",7.5,2.98,0,1.1,20.7,48,32,20,"Loam",235
+236,-12.0264,-75.2449,"Peru","Junin","Huancayo","San Agustin",6.5,0.24,0,2.14,13.9,38,42,20,"Loam",3208
+759,-9.2835,-77.631,"Peru","Ancash","Carhuaz","Acopampa",5.3,0.24,0,0.89,25.8,58,30,12,"Sandy Loam",2740
+71,-5.8939,-76.1069,"Peru","Loreto","Alto Amazonas","Yurimaguas",5.4,0.43,0,1.54,4.6,46,40,16,"Loam",146
+839,-11.4063,-76.3354,"Peru","Junin","Yauli","Marcapomacocha",5.7,1.99,0,36.7,20.1,74,22,4,"Loamy Sand",4417
+1082,-12.0771,-76.9485,"Peru","Lima","Lima","La Molina",7.55,3.07,0,2.3,16.4,46,32,22,"Loam",236
+1603,-11.9994,-75.2218,"Peru","Junin","Huancayo","El Tambo",5.57,0.37,0,2.3,31.3,48,28,24,"Sandy Loam",3309
+206,-11.1214,-75.3534,"Peru","Junin","Chanchamayo","San Ramon",5.6,0.64,0,2.08,38.9,66,24,10,"Sandy Loam",816
+389,-12.0771,-76.952,"Peru","Lima","Lima","La Molina",7.4,4.5,0.38,0.9,10.9,58,32,10,"Sandy Loam",235
+1317,-15.8392,-70.0292,"Peru","Puno","Puno","Puno",6.18,0.74,0,1,24.2,86,14,0,"Sand",3846
+922,-12.0258,-75.2457,"Peru","Junin","Huancayo","San Agustin",7.8,0.39,0,1.18,11.7,40,36,24,"Loam",3209
+278,-5.9275,-76.1341,"Peru","Loreto","Alto Amazonas","Yurimaguas",3.9,0.05,0,1.6,6.2,54,28,18,"Sandy Loam",155
+722,-7.08,-78.34,"Peru","Cajamarca","Cajamarca","Encañada",4,0.18,0,2.65,74,38,40,22,"Loam",3175
+529,-18.1817,-70.4736,"Peru","Tacna","Tacna","Tacna",7.4,5.65,0,0.62,20.5,66,26,8,"Sandy Loam",78
+108,-5.8939,-76.1069,"Peru","Loreto","Alto Amazonas","Yurimaguas",4.8,0.5,0,2.11,5.6,34,38,28,"Clay Loam",146
+1591,-12.0771,-76.9465,"Peru","Lima","Lima","La Molina",4.95,0.98,0,17.3,4.6,NA,NA,NA,NA,243
+98,-5.8939,-76.1069,"Peru","Loreto","Alto Amazonas","Yurimaguas",5,0.17,0,1.54,36.7,44,34,22,"Loam",146
+132,-5.8939,-76.1069,"Peru","Loreto","Alto Amazonas","Yurimaguas",7.2,0.78,0.28,1.66,11.1,50,30,20,"Loam",146
+1598,-12.076,-76.949,"Peru","Lima","Lima","La Molina",7.02,4.34,0,1.1,51.2,50,28,22,"Loam",238
+1096,-11.8628,-75.4144,"Peru","Junin","Jauja","Leonor Ordoñez",3.8,0.14,0,3.9,4.1,30,50,20,"Loam",3304
+837,-8.8823,-74.6729,"Peru","Huanuco","Puerto Inca","Tournavista",5.7,0.14,0,1.43,19.9,42,38,20,"Loam",176
+537,-18.1817,-70.4736,"Peru","Tacna","Tacna","Tacna",7.2,3.95,0,0.69,25.2,70,20,10,"Sandy Loam",78
+825,-12.0771,-76.952,"Peru","Lima","Lima","La Molina",7.4,3.63,1.52,1.4,16.6,52,32,16,"Loam",235
+942,-12.0771,-76.9485,"Peru","Lima","Lima","La Molina",7.33,2.52,0,1.5,16.6,50,28,22,"Loam",236
+849,-12.076,-76.949,"Peru","Lima","Lima","La Molina",7.6,4.15,0,0.8,2.1,58,28,14,"Sandy Loam",238
+1677,-11.0161,-74.7712,"Peru","Junin","Chanchamayo","Pichanaqui",6.49,0.39,0,2.48,22.3,61,31,8,"Sandy Loam",778
+644,-11.1306,-75.3568,"Peru","Junin","Chanchamayo","San Ramon",5.3,0.61,0,2.84,5.7,68,22,10,"Sandy Loam",840
+304,-5.9275,-76.1341,"Peru","Loreto","Alto Amazonas","Yurimaguas",4.8,0.06,0,1.2,4.6,48,36,16,"Loam",155
+28,-5.8939,-76.1069,"Peru","Loreto","Alto Amazonas","Yurimaguas",4.3,0.36,0,0.7,3.9,46,44,10,"Loam",146
+5,-12.26,-75.07,"Peru","Huancavelica","Tayacaja","Pazos",4.7,0.25,0,3.38,7.8,70,26,4,"Sandy Loam",3803
+105,-5.8939,-76.1069,"Peru","Loreto","Alto Amazonas","Yurimaguas",5,0.16,0,2.97,4.7,30,38,32,"Clay Loam",146
+701,-11.1306,-75.3568,"Peru","Junin","Chanchamayo","San Ramon",5.2,0.47,0,1.31,43.3,60,24,16,"Sandy Loam",840
+1393,-15.8392,-70.0292,"Peru","Puno","Puno","Puno",8.02,0.41,0,0.1,2.2,98,2,0,"Sand",3846
+1461,-12.0768,-76.9473,"Peru","Lima","Lima","La Molina",5.06,1.58,0,17.9,9.8,NA,NA,NA,"Organic Soil",242
+515,-18.1817,-70.4736,"Peru","Tacna","Tacna","Tacna",7.5,4.9,0,0.83,14.9,68,26,6,"Sandy Loam",78
+327,-11.7178,-75.0814,"Peru","Junin","Concepción","Comas",4.7,0.19,0,1.3,46.2,80,18,2,"Loamy Sand",3288
+1441,-12.076,-76.949,"Peru","Lima","Lima","La Molina",7.56,3.01,0,1.1,16,50,30,20,"Loam",238
+539,-18.1817,-70.4736,"Peru","Tacna","Tacna","Tacna",7.2,4.15,0,0.48,22.4,70,20,10,"Sandy Loam",78
+1354,-11.8805,-75.3404,"Peru","Junin","Concepción","Matahuasi",8.2,0.38,18.8,0.5,4,14,50,36,"Silty Clay Loam",3299
+426,-18.1817,-70.4736,"Peru","Tacna","Tacna","Tacna",7.2,5.55,0,0.69,18.7,70,24,6,"Sandy Loam",78
+1573,-15.8392,-70.0292,"Peru","Puno","Puno","Puno",7.38,1.03,6.7,3.1,20.9,18,48,34,"Silty Clay Loam",3846
+591,-11.1299,-75.3571,"Peru","Junin","Chanchamayo","San Ramon",6.9,0.28,0,1.9,13.3,54,34,12,"Sandy Loam",839
+740,-11.1214,-75.3534,"Peru","Junin","Chanchamayo","San Ramon",5.8,0.2,0,2.9,47.1,56,24,20,"Sandy Loam",816
+1121,-11.8805,-75.3404,"Peru","Junin","Concepción","Matahuasi",5.9,0.13,0,1.8,5.8,42,44,14,"Loam",3299
+791,-12.076,-76.949,"Peru","Lima","Lima","La Molina",7.2,1.5,0,0.14,12.9,62,26,12,"Sandy Loam",238
+960,-11.8033,-75.3472,"Peru","Junin","Jauja","Masma Chicche",3.9,0.95,0,7.9,14.5,44,38,18,"Loam",3841
+1604,-12.0082,-75.2232,"Peru","Junin","Huancayo","",6.94,0.96,14.3,8.3,4,92,8,0,"Sand",3291
+1068,-12.0781,-76.948,"Peru","Lima","Lima","La Molina",7.57,1.91,0.7,1.7,18.3,48,30,22,"Loam",239
+521,-18.1817,-70.4736,"Peru","Tacna","Tacna","Tacna",7.4,5.25,0,0.83,22.4,66,20,14,"Sandy Loam",78
+9,-12.0781,-76.948,"Peru","Lima","Lima","La Molina",7.6,2.82,0.66,1.72,13.2,51,25,24,"Sandy Clay Loam",239
+995,-11.2649,-75.6503,"Peru","Junin","Tarma","Huasahuasi",5,3.24,0,0.7,42.3,34,44,22,"Loam",2745
+688,-11.1306,-75.3568,"Peru","Junin","Chanchamayo","San Ramon",5.4,0.2,0,1.88,38.3,64,22,14,"Sandy Loam",840
+860,-12.0771,-76.952,"Peru","Lima","Lima","La Molina",7.5,2.29,0,1.1,17,54,28,18,"Sandy Loam",235
+1407,-15.8392,-70.0292,"Peru","Puno","Puno","Puno",8.59,21.3,0.4,0.6,2.8,68,22,10,"Sandy Loam",3846
+1080,-11.856,-75.4882,"Peru","Junin","Jauja","Paccha",4.05,0.32,0,2.9,45.9,32,40,28,"Clay Loam",3726
+1361,-15.8392,-70.0292,"Peru","Puno","Puno","Puno",6.58,0.18,0,1.2,3.8,66,28,6,"Sandy Loam",3846
+1259,-11.8805,-75.3404,"Peru","Junin","Concepción","Matahuasi",8.1,0.24,47.6,1.9,4,40,30,30,"Clay Loam",3299
+115,-12.0771,-76.9465,"Peru","Lima","Lima","La Molina",7.2,0.61,0.28,0.7,7.9,64,26,10,"Sandy Loam",243
+190,-12.0281,-76.9108,"Peru","Lima","Lima","Ate",7.3,1.8,0.2,2.6,12.6,50,26,24,"Sandy Clay Loam",373
+1181,-11.8805,-75.3404,"Peru","Junin","Concepción","Matahuasi",7.8,0.19,0,1.5,17.7,32,42,26,"Loam",3299
+172,-12.0276,-75.2443,"Peru","Junin","Huancayo","San Agustin",7.8,0.74,1.52,1.59,23.2,22,39,39,"Clay Loam",3207
+451,-18.1817,-70.4736,"Peru","Tacna","Tacna","Tacna",7.1,4.1,0,0.55,15.8,72,20,8,"Sandy Loam",78
+488,-18.1817,-70.4736,"Peru","Tacna","Tacna","Tacna",7.6,5.75,0,0.41,14,76,20,4,"Loamy Sand",78
+1041,-12.0771,-76.952,"Peru","Lima","Lima","La Molina",7.5,3.21,0,1.1,14.9,50,30,20,"Loam",235
+1125,-11.8805,-75.3404,"Peru","Junin","Concepción","Matahuasi",7.4,0.23,0,0.8,10.8,42,30,28,"Clay Loam",3299
+1017,-12.0781,-76.948,"Peru","Lima","Lima","La Molina",7.9,1.91,0.48,1.02,50,64,24,12,"Sandy Loam",239
+240,-14.0701,-75.7255,"Peru","Ica","Ica","Ica",7.7,0.24,1.52,1.17,4.9,70,18,12,"Sandy Loam",409
+869,-12.0771,-76.952,"Peru","Lima","Lima","La Molina",7.6,1.62,0,1.2,18.7,54,26,20,"Sandy Clay Loam",235
+1500,-15.8392,-70.0292,"Peru","Puno","Puno","Puno",5.03,0.06,0,1.8,8.6,50,28,22,"Loam",3846
+1320,-11.8805,-75.3404,"Peru","Junin","Concepción","Matahuasi",5,0.17,0,1.9,34.7,34,40,26,"Clay Loam",3299
+612,-11.1652,-75.9956,"Peru","Junin","Junín","Junin",6.4,0.37,0.5,3.5,23.6,54,34,12,"Sandy Loam",4111
+1157,-11.8805,-75.3404,"Peru","Junin","Concepción","Matahuasi",7.5,0.39,5.9,6.6,13.7,62,28,10,"Sandy Loam",3299
+1217,-11.8628,-75.4144,"Peru","Junin","Jauja","Leonor Ordoñez",4.2,0.14,0,3.3,11.8,34,46,20,"Loam",3304
+1432,-11.2649,-75.6503,"Peru","Junin","Tarma","Huasahuasi",3.8,1.24,0,9.4,64.6,60,34,6,"Sandy Loam",2745
+1081,-13.2476,-71.8969,"Peru","Cusco","Calca","Calca",3.91,0.08,0,8,9.4,56,36,8,"Sandy Loam",3961
+978,-12.2411,-75.0463,"Peru","Huancavelica","Tayacaja","Pazos",4.4,0.22,0,4,23.5,50,40,10,"Loam",3887
+550,-18.1817,-70.4736,"Peru","Tacna","Tacna","Tacna",7.3,5.8,0,0.69,21.5,76,18,6,"Sandy Loam",78
+602,-12.076,-76.949,"Peru","Lima","Lima","La Molina",7.6,1.35,0.19,1.31,4.8,60,28,12,"Sandy Loam",238
+1276,-11.8805,-75.3404,"Peru","Junin","Concepción","Matahuasi",8,0.31,13.7,1.2,10.5,20,38,42,"Clay",3299
+1322,-11.8805,-75.3404,"Peru","Junin","Concepción","Matahuasi",5.7,0.23,0,1.2,12.4,32,38,30,"Clay Loam",3299
+1103,-11.8805,-75.3404,"Peru","Junin","Concepción","Matahuasi",7.3,1.09,5.8,6.1,17.7,44,38,18,"Loam",3299
+1638,-12.0771,-76.9465,"Peru","Lima","Lima","La Molina",7.32,0.24,0,2.02,6.1,NA,NA,NA,NA,243
+129,-5.8939,-76.1069,"Peru","Loreto","Alto Amazonas","Yurimaguas",7.1,0.56,0,1.37,13.8,50,30,20,"Loam",146
+48,-12.0276,-75.2443,"Peru","Junin","Huancayo","San Agustin",7.7,0.76,5.14,1.3,14.1,22,33,35,"Clay Loam",3207
+1055,-12.0771,-76.952,"Peru","Lima","Lima","La Molina",7.5,3.25,0,1.1,15.8,50,28,22,"Loam",235
+265,-10.9758,-74.6282,"Peru","Junin","Chanchamayo","Pichanaqui",5.1,1,0,3.9,4.9,48,36,16,"Loam",493
+577,-12.0545,-75.218,"Peru","Junin","Huancayo","El Tambo",5.1,0.55,0,2.5,22.6,44,34,22,"Loam",3269
+752,-9.2835,-77.631,"Peru","Ancash","Carhuaz","Acopampa",5.3,0.61,0,1.03,16.3,60,28,12,"Sandy Loam",2740
+512,-18.1817,-70.4736,"Peru","Tacna","Tacna","Tacna",7,4.1,0,0.83,22.4,70,24,6,"Sandy Loam",78
+1547,-15.8392,-70.0292,"Peru","Puno","Puno","Puno",7.6,0.16,5.3,4.5,5,32,44,24,"Loam",3846
+1670,-12.0302,-75.244,"Peru","Junin","","Tambo",7.59,0.25,2.2,2.05,5.6,NA,NA,NA,NA,3206
+111,-12.0276,-75.2443,"Peru","Junin","Huancayo","San Agustin",7.7,1,0.66,1.44,25.7,22,35,39,"Clay Loam",3207
+936,-12.0545,-75.218,"Peru","Junin","Huancayo","El Tambo",7.2,0.4,0.47,1.18,30.3,60,26,10,"Sandy Loam",3269
+1669,-12.0284,-75.2452,"Peru","Junin","","Tambo",7.23,0.18,0,1.84,5.5,NA,NA,NA,NA,3208
+992,-11.2649,-75.6503,"Peru","Junin","Tarma","Huasahuasi",6.6,4.55,0,5.8,55.6,48,36,16,"Loam",2745
+420,-18.1817,-70.4736,"Peru","Tacna","Tacna","Tacna",7.2,4.4,0,0.62,17.7,72,22,6,"Sandy Loam",78
+112,-11.5255,-77.2254,"Peru","Lima","Huaral","Huaral",7.2,0.38,10.94,0.9,7,84,12,4,"Loamy Sand",204
+192,-12.0281,-76.9108,"Peru","Lima","Lima","Ate",7.3,2.3,0.2,2.6,15.1,52,20,28,"Sandy Clay Loam",373
+1685,-15.8326,-70.1928,"Peru","Puno","Puno","Tiquillaca",4.74,0.65,0,0.75,10.7,74,20,6,"Sandy Loam",3951
