@@ -373,3 +373,5 @@ validate::barplot(cf, main='woman dataset validation with BMI')
 ## Thanks!
 
 @chendaniely
+
+https://github.com/chendaniely/2016-04-08-rstatsnyc_testing
